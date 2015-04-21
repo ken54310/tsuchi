@@ -1,0 +1,20 @@
+"#backBtn":{
+  height:"50dp",
+  width:"50dp",
+  left:0
+}
+
+"#titlebar": {
+  top:"0dp",
+  height: "50dp",
+  width: Ti.UI.FILL,
+  backgroundColor: "red"
+}
+
+"#titlebar[platform=ios]": {
+  top: "20dp",
+}
+
+"#title": {
+	
+}

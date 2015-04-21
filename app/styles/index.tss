@@ -1,0 +1,21 @@
+"Window[platform=android]": {
+	// デフォルトでソフトキーボードが出ちゃう対策
+	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_STATE_ALWAYS_HIDDEN,
+}
+
+".container": {
+	backgroundColor:"white",
+	layout: "vertical",
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}

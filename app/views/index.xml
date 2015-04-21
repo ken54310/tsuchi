@@ -1,0 +1,13 @@
+<Alloy>
+  <Window class="container">
+    <Require src="titlebar" title="つーち" type="view" />
+    <Label>グループ</Label>
+    <TextField id="group"></TextField>
+    <Label>グループを作る</Label>
+    <Label>合言葉</Label>
+    <TextField id="aikotoba"></TextField>
+    <Label>名前</Label>
+    <TextField id="name"></TextField>
+    <Button id="hajimeru" onClick="doHajimeru">はじめる</Button>
+  </Window>
+</Alloy>
