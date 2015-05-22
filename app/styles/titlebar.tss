@@ -8,7 +8,7 @@
   top:"0dp",
   height: "50dp",
   width: Ti.UI.FILL,
-  backgroundColor: "red"
+  backgroundColor: "#ff8c00"
 }
 
 "#titlebar[platform=ios]": {
@@ -16,5 +16,5 @@
 }
 
 "#title": {
-	
+  color: "#fffafa",
 }

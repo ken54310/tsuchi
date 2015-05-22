@@ -1,6 +1,6 @@
 <Alloy>
-  <View id="titlebar">
-    <ImageView id="backBtn" image="/ic_menu_back.png" onClick="doWinBack" />
-    <Label id="title" text="notTitle" />
-  </View>
+	<View id="titlebar">
+		<ImageView id="backBtn" image="/ic_menu_back.png" onClick="doWinBack"/>
+		<Label id="title" text="notTitle"></Label>
+	</View>
 </Alloy>

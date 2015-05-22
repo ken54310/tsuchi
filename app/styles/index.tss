@@ -1,103 +1,25 @@
-'Window': {
-	backgroundColor: '#ffffff', // 画面背景色
-	barColor: "aqua", // ナビゲーションバーの背景色
-	tintColor : "red", // 配下のViewの色合いに影響 (TextAreaのキャレット色とか)
-	navTintColor : "blue", // 子Windowで戻るのクチバシの色とか
-	translucent: false, // NavBarがうっすら透けて下のWindowのNavbarが見えちゃう時にはこれ
-}
- 
-"Window[platform=ios]": {
-    statusBarStyle: Ti.UI.iPhone.StatusBar.DEFAULT,
-	titleAttributes:  { // NavBarのタイトルのスタイル
-		color:'#fff',
-		font: {
-			fontFamily: "HiraKakuProN-W6", // ヒラギノ角ゴ
-		},
-	}
-}
- 
-"Window[platform=android]": {
-	// デフォルトでソフトキーボードが出ちゃう対策
-	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_STATE_ALWAYS_HIDDEN
-}
- 
-"TabGroup[platform=android]": {
-	// デフォルトでソフトキーボードが出ちゃう対策
-	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_STATE_ALWAYS_HIDDEN
-}
- 
-"Button": {
-	backgroundImage: '', // iOS6だとコレを指定しないと角丸ボタンになる
-}
- 
-'ImageView': {
-	defaultImage: '', // コレが無いとリモートの画像とかがロードされるまで山の絵のやつが出てカッコ悪い
-	enableZoomControls: false,
-}
- 
-'ImageView[platform=android]': {
-	enableZoomControls: false, // ズームコントロールは隠す
-}
- 
-"WebView" : {
-	enableZoomControls: false, // ズームコントロールは隠す
-}
- 
-"TableView[platform=ios]": {
-	separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.SINGLE_LINE,
-	separatorInsets: {
-		left: 0, right: 0 // TableViewの行罫線は左もピッタリして欲しい
-	},
-}
- 
-"TableViewRow[platform=ios]": {
-	selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.GRAY, // デフォルトの青はドギツイね
-}
- 
-"ListView[platform=ios]": {
-	separatorInsets: {
-		left: 0, right: 0 // ListViewの行罫線は左もピッタリして欲しい
-	},
-}
- 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
-	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER, // 特にこの辺毎回スペル忘れる
-	backgroundColor: "#ffffff", // デフォルトのTransparentはリソース消費するので
-	color: "#000",
-	font: {
-		fontSize: "14dp",
-		fontFamily: 'Helvetica Neue'
-	},
-}
- 
-"ScrollView": {
-	top: 0, left: 0, right: 0,
-	width: Ti.UI.FILL,
-	contentWidth: Ti.UI.FILL,
-	scrollType: "vertical",
-}
-
 ".container": {
-	backgroundColor:"white",
 	layout: "vertical",
 }
 
 "Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+	width: "90%",
+	top: "10dp",
 }
 
 "TextField": {
-	color: "#000",
-	width: "80%"
+	width: "90%",
+	bottom: "10dp",
+	backgroundColor: "#ffffff",
 }
 
 "#group": {
 	
+}
+
+"#makegroup": {
+	width: "90%",
+	bottom: "10dp",
 }
 
 "#aikotoba": {
@@ -109,5 +31,8 @@
 }
 
 "#hajimeru": {
-	
+	width: "90%",
+	font: {
+		fontSize: "30dp",
+	},
 }

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<Require src="titlebar" title="つーち" type="view"/>
+		<Label id="watch">23:59:59</Label>
+		<Button id="tsuchi" onClick="doTsuchi">つーち</Button>
+	</Window>
+</Alloy>

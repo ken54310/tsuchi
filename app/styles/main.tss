@@ -1,0 +1,20 @@
+".container" : {
+ 	layout: "vertical",
+}
+
+"#watch": {
+	top: "10dp",
+	width:"90%",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: "80dp",
+	},
+}
+
+"#tsuchi": {
+	top: "30dp",
+	width:"90%",
+	font: {
+		fontSize: "30dp",
+	},
+}

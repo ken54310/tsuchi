@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <property name="acs-api-key-production" type="string">MNrgN38RzzModi5MJcR45sI8qF1Ij2Tu</property>
+
     <property name="acs-api-key-development" type="string">jxlycsDbErIdjIeQQMbkbgNt0lQolA7o</property>
+	<property name="acs-oauth-key-development" type="string">iYqR2dDR2ePlVYuZtBxBH4yPDMWgi9tY</property>
+	<property name="acs-oauth-secret-development" type="string">oFENNjLBKQGIzk2ybdQUoDlIFi3RQlyX</property>
+	
+    <property name="acs-api-key-production" type="string">MNrgN38RzzModi5MJcR45sI8qF1Ij2Tu</property>
+	<property name="acs-oauth-key-production" type="string">CZIxEwoR3CpNu1Mh3t0hGzEzUgT5Xobl</property>
+	<property name="acs-oauth-secret-production" type="string">nwyCxykTMHQS5GtVgJaUviGmvOSi7QGc</property>
+
     <id>jp.ne.litcity.ks.tsuchi</id>
     <name>tsuchi</name>
     <version>1.0</version>
@@ -64,4 +71,9 @@
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	  <manifest>
+	    <application android:theme="@style/Theme.NoActionBar"/>
+	  </manifest>
+	</android>
 </ti:app>
